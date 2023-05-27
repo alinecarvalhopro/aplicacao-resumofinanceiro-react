@@ -1,0 +1,94 @@
+.li_cardTransition {
+  width: calc(100% - 2rem);
+  height: 116px;
+
+  margin-bottom: 1rem;
+
+  padding: 1rem;
+
+  border-radius: 4px;
+  
+  background-color: var(--greyScale-1);
+
+  display: flex;
+  flex-direction: column;
+
+  transition: 1s;
+}
+
+.li_cardTransition:hover {
+  box-shadow: 0px 4px 32px -12px rgba(0, 0, 0, 0.25);
+
+  background-color: transparent;
+}
+
+.h3_transitionDescription {
+  margin-bottom: 16px;
+
+  font-weight: 700;
+  font-size: 16px;
+  color: var(--greyScale-4);
+}
+
+.transitionTypeValue {
+  margin-bottom: 16px;
+
+  font-weight: 400;
+  font-size: 12px;
+  color: var(--greyScale-3);
+}
+
+.p_transitionValueMoney {
+  margin-bottom: 16px;
+  margin-top: 16px;
+
+  font-weight: 400;
+  font-size: 12px;
+}
+
+.button_transitionRemove {
+  width: 48px;
+  height: 19px;
+
+  border: none;
+  border-radius: 2px;
+
+  background: var(--greyScale-2);
+
+  font-weight: 400;
+  font-size: 10px;
+  color: var(--greyScale-4);
+
+  transition: 1s;
+}
+
+.button_transitionRemove:hover {
+  background-color: var(--greyScale-4);
+
+  color: #ffffff;
+}
+
+@media (min-width: 769px) {
+  .li_cardTransition {
+    width: calc(100% - 2.5rem);
+  }
+}
+
+@media (min-width: 1025px) {
+  .li_cardTransition {
+    height: 55px;
+
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .div_buttonTransitionValueMoney {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+
+  .p_transitionValueMoney {
+    margin-top: 0;
+  }
+}

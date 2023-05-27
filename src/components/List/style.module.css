@@ -1,0 +1,25 @@
+.ul_listTransitions {
+  margin: 1rem;
+}
+
+@media (min-width: 769px) {
+  .ul_listTransitions {
+    width: 30%;
+    height: 380px;
+
+    position: fixed;
+    top: 120px;
+    right: 100px;
+
+    overflow-x: auto;
+  }
+}
+
+@media (min-width: 1025px) {
+  .ul_listTransitions {
+    width: 40%;
+    height: 400px;
+
+    overflow-x: auto;
+  }
+}

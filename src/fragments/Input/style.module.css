@@ -1,0 +1,27 @@
+.fielset_input {
+    width: 100%;
+}
+
+.styles.label_inputDescription {
+  margin-top: 1rem;
+
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.input_ {
+  width: calc(100% - 1.5rem);
+  height: 52.8px;
+
+  margin-top: 1rem;
+
+  border: 2px solid var(--greyScale-1);
+  border-radius: 8px;
+
+  padding-left: 1rem;
+
+  background-color: var(--greyScale-1);
+
+  font-weight: 400;
+  font-size: 16px;
+}

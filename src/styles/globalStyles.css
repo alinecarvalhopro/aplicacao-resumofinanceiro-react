@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+
+:root {
+  --color-primary-1: #fd377e;
+  --color-primary-2: #e34981;
+  --color-secundary: #03b898;
+
+  --greyScale-4: #212529;
+  --greyScale-3: #868e96;
+  --greyScale-2: #e9ecef;
+  --greyScale-1: #f8f9fa;
+}
+
+body {
+  font-family: "Nunito", sans-serif;
+}
+
+h5 {
+  margin: 1rem;
+  font-weight: 700;
+  font-size: 16px;
+  color: var(--greyScale-4);
+}
+
+@media (min-width: 769px) {
+  button, input, select {
+    cursor: pointer;
+  }
+
+  h5 {
+    width: 30%;
+
+    position: fixed;
+    top: 90px;
+    right: 100px;
+  }
+}
+
+@media (min-width: 1025px) {
+  h5 {
+    width: 40%;
+  }
+}
+
+#valor {
+  margin-bottom: 1rem;
+}
